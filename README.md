@@ -32,6 +32,12 @@
 
 * COMMAND - `cd ~/Library/Application\ Support/Naver/Whale/Profile\ 2/`
 
+#### 🔎 Mozilla Firefox History File Path
+
+* /Users/<username>/Library/Application Support/Firefox/Profiles/<profile folder>
+
+* /Users/<username>/Library/Caches/Firefox/Profiles/<profile folder>/cache2
+
 ## 🧐 MacOS Serial Number
 
 <p align="center">

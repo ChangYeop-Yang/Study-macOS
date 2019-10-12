@@ -34,9 +34,15 @@
 
 #### 🔎 Mozilla Firefox History File Path
 
-* /Users/<username>/Library/Application Support/Firefox/Profiles/<profile folder>
+* `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Firefox/Profiles/<profile folder>`
 
-* /Users/<username>/Library/Caches/Firefox/Profiles/<profile folder>/cache2
+* `/Users/[COMPUTER_USER_NAME]/Library/Caches/Firefox/Profiles/<profile folder>/cache2`
+ 
+#### 🔎 Opera History File Path
+
+* `/Users/[COMPUTER_USER_NAME]/Library/Application Support/com.operasoftware.Opera`
+
+* 🔗 COMMAND - `cd ~/Library/Application\ Support/com.operasoftware.Opera`
 
 ## 🧐 MacOS Serial Number
 

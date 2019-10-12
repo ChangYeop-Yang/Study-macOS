@@ -16,7 +16,7 @@
 
 #### 🔎 Google Chromium History File Path
 
-* `~/Library/Application Support/Chromium`
+* `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Chromium`
 
 * COMMAND - `~/Library/Application\ Support/Chromium/`
  

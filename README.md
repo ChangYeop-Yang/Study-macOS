@@ -6,7 +6,31 @@
 
 ## 🧐 MacOS SQLite
 
-## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) History Path
+## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) History File Path
+
+#### 🔎 Google Chrome History File Path
+
+* `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Google/Chrome`
+
+* COMMAND - `~/Library/Application\ Support/Google/Chrome/`
+
+#### 🔎 Google Chromium History File Path
+
+* `~/Library/Application Support/Chromium`
+
+* COMMAND - `~/Library/Application\ Support/Chromium/`
+ 
+#### 🔎 Apple Safari History File Path
+
+* `/Users/[COMPUTER_USER_NAME]/Library/Safari`
+
+* COMMAND - `cd ~/Library/Safari/`
+
+#### 🔎 NAVER Whale History File Path
+
+* `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Naver/Whale/Profile 2`
+
+* COMMAND - `cd ~/Library/Application\ Support/Naver/Whale/Profile\ 2/`
 
 ## 🧐 MacOS Serial Number
 

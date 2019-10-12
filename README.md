@@ -12,25 +12,25 @@
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Google/Chrome`
 
-* COMMAND - `~/Library/Application\ Support/Google/Chrome/`
+* 🔗 COMMAND - `~/Library/Application\ Support/Google/Chrome/`
 
 #### 🔎 Google Chromium History File Path
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Chromium`
 
-* COMMAND - `~/Library/Application\ Support/Chromium/`
+* 🔗 COMMAND - `~/Library/Application\ Support/Chromium/`
  
 #### 🔎 Apple Safari History File Path
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Safari`
 
-* COMMAND - `cd ~/Library/Safari/`
+* 🔗 COMMAND - `cd ~/Library/Safari/`
 
 #### 🔎 NAVER Whale History File Path
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Naver/Whale/Profile 2`
 
-* COMMAND - `cd ~/Library/Application\ Support/Naver/Whale/Profile\ 2/`
+* 🔗 COMMAND - `cd ~/Library/Application\ Support/Naver/Whale/Profile\ 2/`
 
 #### 🔎 Mozilla Firefox History File Path
 

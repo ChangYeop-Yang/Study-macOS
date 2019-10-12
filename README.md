@@ -19,6 +19,12 @@
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Chromium`
 
 * 🔗 COMMAND - `~/Library/Application\ Support/Chromium/`
+
+#### 🔎 Google Canary History File Path
+
+* `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Google/Chrome Canar`
+
+* 🔗 COMMAND - `~/Library/Application\ Support/Google/Chrome Canar/`
  
 #### 🔎 Apple Safari History File Path
 

@@ -1,5 +1,7 @@
 # ■ Study - MacOS
 
+* macOS(맥오에스, 이전 이름: OS X, 맥 OS X / Mac OS X)는 기업 애플이 제작한 운영 체제이다. 2002년 4월부터 모든 매킨토시 컴퓨터에 적용되고 있다. 이 운영 체제는 1984년 1월부터 애플 컴퓨터를 이끌어 왔던 맥 OS의 마지막 고전 버전인 맥 오에스 9의 뒤를 잇는다. OS X이라는 이 운영 체제의 예전 이름에 들어있는 "X"라는 글자는 알파벳 "X"을 뜻하는 것이 아니라, 매킨토시의 10번째 운영 체제를 뜻하는 것이기 때문에, 로마 숫자 "10"을 뜻하는 것이다. 이 운영 체제는 애플이 1996년 12월에 인수한 NeXT의 기술력으로 만들어졌으며 유닉스에 기반을 하고 있다. 2011년 7월 20일에 OS X 라이언이 출시되었다. 기존에도 줄여서 OS X이라고 많이 표현했으나, OS X 마운틴 라이언 공개와 함께 기존 맥 OS X (Mac OS X)에서 맥 (Mac)이라는 단어가 공식적으로 제거되었다.
+
 ###### [🌎 Study - iOS MARKDOWN](https://github.com/ChangYeop-Yang/Study-iOS/blob/master/README.md)
  
 ###### [🌎 Study - MacOS MARKDOWN](https://github.com/ChangYeop-Yang/Study-macOS/blob/master/README.md)

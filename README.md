@@ -34,17 +34,19 @@
 
 * 🔗 COMMAND - `cd ~/Library/Safari/`
 
-#### 🔎 NAVER Whale History File Path
+#### 🔎 NAVER Whale History File Path `History`
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Naver/Whale/Profile 2`
 
+* `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Naver/Whale/Default`
+
 * 🔗 COMMAND - `cd ~/Library/Application\ Support/Naver/Whale/Profile\ 2/`
 
-#### 🔎 Mozilla Firefox History File Path
+#### 🔎 Mozilla Firefox History File Path `places.sqlite`
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Firefox/Profiles/<profile folder>`
 
-* `/Users/[COMPUTER_USER_NAME]/Library/Caches/Firefox/Profiles/<profile folder>/cache2`
+* `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Firefox/Profiles/fnhhibct.default-release`
  
 #### 🔎 Opera History File Path
 

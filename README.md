@@ -28,13 +28,13 @@
 
 * 🔗 COMMAND - `~/Library/Application\ Support/Google/Chrome Canar/`
  
-#### 🔎 Apple Safari History File Path
+#### 🔎 Apple Safari History File Path [`History.db`]
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Safari`
 
 * 🔗 COMMAND - `cd ~/Library/Safari/`
 
-#### 🔎 NAVER Whale History File Path `History`
+#### 🔎 NAVER Whale History File Path [`History`]
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Naver/Whale/Profile 2`
 
@@ -42,7 +42,7 @@
 
 * 🔗 COMMAND - `cd ~/Library/Application\ Support/Naver/Whale/Profile\ 2/`
 
-#### 🔎 Mozilla Firefox History File Path `places.sqlite`
+#### 🔎 Mozilla Firefox History File Path [`places.sqlite`]
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Firefox/Profiles/<profile folder>`
 

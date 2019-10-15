@@ -10,19 +10,19 @@
 
 ## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) History File Path
 
-#### 🔎 Google Chrome History File Path
+#### 🔎 Google Chrome History File Path [`History`]
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Google/Chrome`
 
 * 🔗 COMMAND - `~/Library/Application\ Support/Google/Chrome/`
 
-#### 🔎 Google Chromium History File Path
+#### 🔎 Google Chromium History File Path [`History`]
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Chromium`
 
 * 🔗 COMMAND - `~/Library/Application\ Support/Chromium/`
 
-#### 🔎 Google Canary History File Path
+#### 🔎 Google Canary History File Path [`History`]
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Google/Chrome Canar`
 
@@ -48,8 +48,8 @@
 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/Firefox/Profiles/fnhhibct.default-release`
  
-#### 🔎 Opera History File Path
-
+#### 🔎 Opera History File Path [`History`]
+ 
 * `/Users/[COMPUTER_USER_NAME]/Library/Application Support/com.operasoftware.Opera`
 
 * 🔗 COMMAND - `cd ~/Library/Application\ Support/com.operasoftware.Opera`

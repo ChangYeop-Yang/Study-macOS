@@ -54,7 +54,7 @@
 
 * 🔗 COMMAND - `cd ~/Library/Application\ Support/com.operasoftware.Opera`
 
-## 🧐 MacOS X WEB Browser Time Format 변환
+## 🧐 [MacOS X WEB Browser Time Format 변환](https://gist.github.com/dropmeaword/9372cbeb29e8390521c2)
 
 ```Swift
 /**

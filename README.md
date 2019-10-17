@@ -8,8 +8,8 @@
 
 ## 🧐 MacOS Apple T2
 
-<p align=center">
-                <img src="https://user-images.githubusercontent.com/20036523/66991819-bbd4eb80-f103-11e9-9c69-0bd0f909e62f.png" />
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/20036523/66991819-bbd4eb80-f103-11e9-9c69-0bd0f909e62f.png" width=512 height=384 />
 </p>
 
 * Apple T2 보안 칩은 Apple의 Mac용 2세대 맞춤형 실리콘 칩입니다. 다른 Mac 컴퓨터에서 찾을 수 있는 시스템 관리 컨트롤러, 이미지 신호 프로세서, 오디오 컨트롤러, SSD 컨트롤러 등의 다양한 컨트롤러들을 새롭게 디자인하여 하나로 통합한 T2 칩은 Mac에 새로운 기능을 제공합니다. </br></br>예를 들어 T2 칩에는 Touch ID 데이터를 보호하고 새로운 암호화된 저장 장치와 보안 시동 기능의 기반이 되는 Secure Enclave 보조 프로세서가 내장되어 있어 새로운 차원의 보안이 가능합니다. 또한 T2 칩의 이미지 신호 프로세서는 FaceTime HD 카메라와 연동하여 색조 매핑과 노출 조절 기능을 개선하고 안면 인식 기술을 바탕으로 한 자동 노출 및 자동 화이트 밸런스가 가능합니다.

@@ -233,3 +233,5 @@ private func measurePerformanceTime() {
     print("🕐 Measure Function Performance Time - \(timeElapsed)")
 }
 ```
+
+## 🧐 MacOS

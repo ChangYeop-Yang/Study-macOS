@@ -234,4 +234,4 @@ private func measurePerformanceTime() {
 }
 ```
 
-## 🧐 MacOS
+## 🧐 MacOS Major Download history path

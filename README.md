@@ -16,7 +16,9 @@
 
 ## 🧐 MacOS SQLite
 
-## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) History File Path
+## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) Download History File Path
+
+## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) User History File Path
 
 #### 🔎 Google Chrome History File Path [`History`]
 
@@ -233,5 +235,3 @@ private func measurePerformanceTime() {
     print("🕐 Measure Function Performance Time - \(timeElapsed)")
 }
 ```
-
-## 🧐 MacOS Major Download history path

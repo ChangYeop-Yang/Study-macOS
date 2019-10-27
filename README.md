@@ -16,32 +16,9 @@
 
 ## 🧐 MacOS SQLite
 
+#### 📔 SQLite Create Table Source Code
+
 ```Swift
-/*
- * Copyright (c) 2019 양창엽. All rights reserved.
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
-
-import SQLite3
-import Foundation
-
 /// Open SQLite Database
 private func openSQLite(path: String) -> OpaquePointer? {
     
@@ -80,7 +57,11 @@ private func createSQLiteTable(database: OpaquePointer, statement: String) -> Bo
     
     return true
 }
+```
 
+#### 📔 SQLite Insert Source Code
+
+```Swift
 /// Insert Data into SQLite Database Table
 private func insertSQLiteTable(database: OpaquePointer, statement: String) -> Bool {
     
@@ -103,7 +84,11 @@ private func insertSQLiteTable(database: OpaquePointer, statement: String) -> Bo
     
     return true
 }
+```
 
+#### 📔 SQLite Query Source Code
+
+```Swift
 /// Implement Query SQLite
 private func qeurySQLite(database: OpaquePointer, statment: String) -> Bool {
     
@@ -127,32 +112,6 @@ private func qeurySQLite(database: OpaquePointer, statment: String) -> Bool {
     
     return true
 }
-
-guard let db = openSQLite(path: "/Users/yangchang-yeob/Downloads/sqlite.db") else {
-    assert(false, "‼️ Fail, Open SQLite Database.")
-}
-
-let createStatment: String = """
-CREATE TABLE Contact (
-id INT PRIMARY KEY NOT NULL,
-name CHAR(255)
-);
-"""
-
-if createSQLiteTable(database: db, statement: createStatment) {
-    print("✅ Success, Create SQLite Table.")
-}
-
-let insertStatment: String = "INSERT INTO Contact (id, name) VALUES (10, 'CHCH');"
-if insertSQLiteTable(database: db, statement: insertStatment) {
-    print("✅ Success, Insert data into SQLite Table.")
-}
-
-let queryStatment: String = "SELECT * FROM Contact;"
-if qeurySQLite(database: db, statment: queryStatment) {
-    print("✅ Success, Query SQLite.")
-}
-
 ```
 
 ## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) Download History File Path

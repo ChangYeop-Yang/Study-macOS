@@ -116,8 +116,6 @@ private func qeurySQLite(database: OpaquePointer, statment: String) -> Bool {
 }
 ```
 
-## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) Download History File Path
-
 ## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) User History File Path
 
 #### 🔎 Google Chrome History File Path [`History`]

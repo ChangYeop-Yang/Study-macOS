@@ -202,7 +202,7 @@ private func convertUnixTime(clock: BrowserTimeStamp) -> Date {
 }
 ```
 
-## 🧐 MacOS X 일련번호 (Serial Number) 가져오기
+## 🧐 MacOS 일련번호 (Serial Number) 가져오기
 
 <p align="center">
          <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macos/Mojave/macos-mojave-about-this-mac-overview-version-build.jpg" width=512 height=300 />

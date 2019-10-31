@@ -334,10 +334,13 @@ private func measurePerformanceTime() {
 }
 ```
 
-## 🧐 MacOS 앱 설치 확인
+## 🧐 MacOS 앱 설치 확인 (Check Installed Application)
+
+#### 📔 Measure Check Installed Application Source Code
 
 ```swift
 NSWorkspace.shared.launchApplication('APP NAME')
 
+// EXAMPLE
 NSWorkspace.shared.launchApplication("Safari")
 ```

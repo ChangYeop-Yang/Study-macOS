@@ -322,6 +322,10 @@ private func killProcess(pid: [Int32]) {
 
 ## 🧐 [MacOS 프로세스 시간 측정 (Measure Performance Time)](https://stackoverflow.com/questions/25006235/how-to-benchmark-swift-code-execution)
 
+```swift
+func CFAbsoluteTimeGetCurrent() -> CFAbsoluteTime
+```
+
 #### 📔 Measure Performance Time Source Code
 
 ```swift

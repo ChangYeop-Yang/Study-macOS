@@ -322,6 +322,8 @@ private func killProcess(pid: [Int32]) {
 
 ## 🧐 [MacOS 프로세스 시간 측정 (Measure Performance Time)](https://stackoverflow.com/questions/25006235/how-to-benchmark-swift-code-execution)
 
+#### 📔 CFAbsoluteTimeGetCurrent Syntax
+
 ```swift
 func CFAbsoluteTimeGetCurrent() -> CFAbsoluteTime
 ```
@@ -340,11 +342,13 @@ private func measurePerformanceTime() {
 
 ## 🧐 [MacOS 앱 설치 확인 (Check Installed Application)](https://developer.apple.com/documentation/appkit/nsworkspace/1531434-launchapplication)
 
+#### 📔 launchApplication Syntax
+
 ```swift
 func launchApplication(_ appName: String) -> Bool
 ```
 
-#### 📔 Measure Check Installed Application Source Code
+#### 📔 Check Installed Application Source Code
 
 ```swift
 NSWorkspace.shared.launchApplication('APP NAME')

@@ -333,3 +333,11 @@ private func measurePerformanceTime() {
     print("🕐 Measure Function Performance Time - \(timeElapsed)")
 }
 ```
+
+## 🧐 MacOS 앱 설치 확인
+
+```swift
+NSWorkspace.shared.launchApplication('APP NAME')
+
+NSWorkspace.shared.launchApplication("Safari")
+```

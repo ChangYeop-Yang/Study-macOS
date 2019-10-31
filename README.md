@@ -336,7 +336,9 @@ private func measurePerformanceTime() {
 
 ## 🧐 [MacOS 앱 설치 확인 (Check Installed Application)](https://developer.apple.com/documentation/appkit/nsworkspace/1531434-launchapplication)
 
-`func launchApplication(_ appName: String) -> Bool`
+```swift
+func launchApplication(_ appName: String) -> Bool
+```
 
 #### 📔 Measure Check Installed Application Source Code
 

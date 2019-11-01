@@ -344,6 +344,8 @@ private func measurePerformanceTime() {
 
 #### 📔 launchApplication Syntax
 
+* Launches the specified app.
+
 ```swift
 func launchApplication(_ appName: String) -> Bool
 ```

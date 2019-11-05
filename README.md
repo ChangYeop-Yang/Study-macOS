@@ -351,4 +351,4 @@ NSWorkspace.shared.launchApplication('APP NAME')
 NSWorkspace.shared.launchApplication("Safari")
 ```
 
-## 🧐
+## 🧐 MacOS

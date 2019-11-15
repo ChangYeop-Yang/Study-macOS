@@ -389,4 +389,8 @@ NSWorkspace.shared.launchApplication('APP NAME')
 NSWorkspace.shared.launchApplication("Safari")
 ```
 
-## 🧐 MacOS
+## 🌍 MacOS Development Education Reference
+
+* [iOS에서 TDD(Test-Driven Development)하기 - Realm](https://academy.realm.io/kr/posts/ios-tdd-test-driven-development/)
+
+* [Swift가 제공하는 여러 포인터 타입들과 동작 방식 - Realm](https://academy.realm.io/kr/posts/nate-cook-tryswift-tokyo-unsafe-swift-and-pointer-types/)

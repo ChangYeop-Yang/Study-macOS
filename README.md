@@ -192,6 +192,9 @@ private func qeurySQLite(database: OpaquePointer, statment: String) -> Bool {
 
 * 🔗 COMMAND - `cd ~/Library/Application\ Support/com.operasoftware.Opera`
 
+## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) History Database SQLite Query
+
+
 ## 🧐 [MacOS X WEB Browser Time Format 변환](https://gist.github.com/dropmeaword/9372cbeb29e8390521c2)
 
 #### 📔 Convert WEB Browser Time format to Unix Time format Source Code

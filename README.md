@@ -196,7 +196,7 @@ private func qeurySQLite(database: OpaquePointer, statment: String) -> Bool {
 
 #### 📔 Chromium SQL Query Source Code
 
-```Swift
+```SQL
 /// HISTORY SQL QUERY
 SELECT datetime(visits.visit_time / 1000000 - 11644473600, 'unixepoch', 'localtime') AS time, urls.url, visits.transition, urls.title
 FROM urls, visits
@@ -210,7 +210,7 @@ WHERE downloads_url_chains.id = downloads.id AND s_time BETWEEN DATETIME('0000-0
 
 #### 📔 Gecko SQL Query Source Code
 
-```Swift
+```SQL
 /// HISTORY SQL QUERY
 SELECT datetime(moz_historyvisits.visit_date / 1000000, 'unixepoch', 'localtime') AS time, moz_places.url, moz_historyvisits.visit_type, moz_places.title
 FROM moz_places, moz_historyvisits

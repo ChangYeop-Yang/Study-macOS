@@ -197,12 +197,12 @@ private func qeurySQLite(database: OpaquePointer, statment: String) -> Bool {
 #### 📔 Chromium SQL Query Source Code
 
 ```SQL
-/// HISTORY SQL QUERY
+/* HISTORY SQL QUERY */
 SELECT datetime(visits.visit_time / 1000000 - 11644473600, 'unixepoch', 'localtime') AS time, urls.url, visits.transition, urls.title
 FROM urls, visits
 WHERE urls.id = visits.url AND time BETWEEN DATETIME('0000-00-00 00:00:00') AND DATETIME('0000-00-00 00:00:00')
 
-/// DOWNLOAD SQL QUERY
+/* DOWNLOAD SQL QUERY */
 SELECT datetime(downloads.start_time / 1000000 - 11644473600, 'unixepoch', 'localtime') AS s_time, datetime(downloads.end_time / 1000000 - 11644473600, 'unixepoch', 'localtime') AS e_time, downloads.total_bytes, downloads.target_path
 FROM downloads_url_chains, downloads
 WHERE downloads_url_chains.id = downloads.id AND s_time BETWEEN DATETIME('0000-00-00 00:00:00') AND DATETIME('0000-00-00 00:00:00')

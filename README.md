@@ -194,6 +194,33 @@ private func qeurySQLite(database: OpaquePointer, statment: String) -> Bool {
 
 ## 🧐 MacOS Major Broswer (Safari, Opera, Firefox, Chrome) History Database SQLite Query
 
+#### 📔 Chromium SQL Query Source Code
+
+```Swift
+/// HISTORY SQL QUERY
+SELECT datetime(visits.visit_time / 1000000 - 11644473600, 'unixepoch', 'localtime') AS time, urls.url, visits.transition, urls.title
+FROM urls, visits
+WHERE urls.id = visits.url AND time BETWEEN DATETIME('0000-00-00 00:00:00') AND DATETIME('0000-00-00 00:00:00')
+
+/// DOWNLOAD SQL QUERY
+SELECT datetime(downloads.start_time / 1000000 - 11644473600, 'unixepoch', 'localtime') AS s_time, datetime(downloads.end_time / 1000000 - 11644473600, 'unixepoch', 'localtime') AS e_time, downloads.total_bytes, downloads.target_path
+FROM downloads_url_chains, downloads
+WHERE downloads_url_chains.id = downloads.id AND s_time BETWEEN DATETIME('0000-00-00 00:00:00') AND DATETIME('0000-00-00 00:00:00')
+```
+
+#### 📔 Gecko SQL Query Source Code
+
+```Swift
+/// HISTORY SQL QUERY
+SELECT datetime(moz_historyvisits.visit_date / 1000000, 'unixepoch', 'localtime') AS time, moz_places.url, moz_historyvisits.visit_type, moz_places.title
+FROM moz_places, moz_historyvisits
+WHERE moz_places.id = moz_historyvisits.place_id AND time BETWEEN DATETIME('0000-00-00 00:00:00') AND DATETIME('0000-00-00 00:00:00')
+
+/// DOWNLOAD SQL QUERY
+SELECT moz_annos.anno_attribute_id, moz_annos.content, datetime(moz_annos.dateAdded / 1000000, 'unixepoch', 'localtime') AS s_time, moz_places.url, moz_places.title
+FROM moz_annos, moz_places
+WHERE moz_places.id = moz_annos.place_id AND s_time BETWEEN DATETIME('0000-00-00 00:00:00') AND DATETIME('0000-00-00 00:00:00')
+```
 
 ## 🧐 [MacOS X WEB Browser Time Format 변환](https://gist.github.com/dropmeaword/9372cbeb29e8390521c2)
 

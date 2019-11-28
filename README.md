@@ -211,12 +211,12 @@ WHERE downloads_url_chains.id = downloads.id AND s_time BETWEEN DATETIME('0000-0
 #### 📔 Gecko SQL Query Source Code
 
 ```SQL
-/// HISTORY SQL QUERY
+/* HISTORY SQL QUERY */
 SELECT datetime(moz_historyvisits.visit_date / 1000000, 'unixepoch', 'localtime') AS time, moz_places.url, moz_historyvisits.visit_type, moz_places.title
 FROM moz_places, moz_historyvisits
 WHERE moz_places.id = moz_historyvisits.place_id AND time BETWEEN DATETIME('0000-00-00 00:00:00') AND DATETIME('0000-00-00 00:00:00')
 
-/// DOWNLOAD SQL QUERY
+/* DOWNLOAD SQL QUERY */
 SELECT moz_annos.anno_attribute_id, moz_annos.content, datetime(moz_annos.dateAdded / 1000000, 'unixepoch', 'localtime') AS s_time, moz_places.url, moz_places.title
 FROM moz_annos, moz_places
 WHERE moz_places.id = moz_annos.place_id AND s_time BETWEEN DATETIME('0000-00-00 00:00:00') AND DATETIME('0000-00-00 00:00:00')

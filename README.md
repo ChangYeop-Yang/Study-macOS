@@ -425,4 +425,4 @@ NSWorkspace.shared.launchApplication("Safari")
 
 * [Swift가 제공하는 여러 포인터 타입들과 동작 방식 - Realm](https://academy.realm.io/kr/posts/nate-cook-tryswift-tokyo-unsafe-swift-and-pointer-types/)
 
-* []()
+* [Apple Developer Document](https://developer.apple.com/documentation/)

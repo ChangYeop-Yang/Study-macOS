@@ -419,6 +419,8 @@ NSWorkspace.shared.launchApplication('APP NAME')
 NSWorkspace.shared.launchApplication("Safari")
 ```
 
+## boost 설치
+
 ## 🌍 MacOS Development Education Reference
 
 * [iOS에서 TDD(Test-Driven Development)하기 - Realm](https://academy.realm.io/kr/posts/ios-tdd-test-driven-development/)

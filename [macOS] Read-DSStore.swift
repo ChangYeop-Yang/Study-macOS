@@ -87,3 +87,4 @@ while true {
     if readBlock(data: contents as NSData, offset: off) == 0 { break }
     off = (off & 0xfffff000) + 0x1000
 }
+

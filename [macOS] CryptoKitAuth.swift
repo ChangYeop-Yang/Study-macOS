@@ -25,7 +25,6 @@ import Foundation
 
 @available(iOS 13, OSX 10.15, *)
 class Auth: NSObject {
-    
     // MARK: - Enum
     public enum AuthHashType: String {
         case MD5 = "MD5"
